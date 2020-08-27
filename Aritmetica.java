@@ -4,6 +4,7 @@ public class Aritmetica {
 	public static void main(String[] args) {
 		int n1;  // primeiro número solicitado
 		int n2;  // segundo número solicitado
+		int temp;
 		int soma;           // soma dos dois números
 		int subtracao;	    // subtracao dos dois números
 		int multiplicacao;  // multiplicacao dos dois números
@@ -36,6 +37,12 @@ public class Aritmetica {
 		}
 		else {
 			System.out.printf("O maior eh: %d\n", n2);
+		}
+		if (n1 % n2 == 0) {
+			System.out.println("N1 eh multiplo de N2");
+		}
+		else{
+			System.out.println("N1 nao eh multiplo de N2");
 		}
 		// Imprimir a soma
 		System.out.printf("Soma: %d\n", soma);
